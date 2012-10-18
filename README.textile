@@ -1,0 +1,21 @@
+h1. gas-shh - sshpower your gas
+
+h2. Description
+
+Gas can also juggle your id_rsa ssh keys, which is helpful for uploading to github between multiple accounts.  Indespensible for teachers who need to instruct their students on how to use github!
+
+bc. $ gas add Njax NotarySojac no@mail.com
+Do you want gas to handle switching rsa keys for this user?
+[y/n]
+
+h2. Installation
+
+The best way to install gas-ssh is with RubyGems:
+
+bc. $ [sudo] gem install gas-ssh
+
+You can install from source:
+
+bc. $ cd gas-ssh/
+$ bundle
+$ rake install
