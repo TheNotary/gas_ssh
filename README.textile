@@ -1,4 +1,4 @@
-h1. gas-shh - sshpower your gas
+h1. gas_shh - sshpower your gas
 
 h2. Description
 
@@ -12,7 +12,7 @@ h2. Installation
 
 The best way to install gas-ssh is with RubyGems:
 
-bc. $ [sudo] gem install gas-ssh
+bc. $ [sudo] gem install gas_ssh
 
 You can install from source:
 

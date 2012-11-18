@@ -6,9 +6,9 @@ require "gas_ssh/version"
 Gem::Specification.new do |s|
   s.name = "gas-ssh"
   s.version = GasSsh::VERSION
-  s.authors = "Fredrik Wallgren"
-  s.email = "fredrik.wallgren@gmail.com"
-  s.homepage = "https://github.com/walle/gas-ssh"
+  s.authors = ""
+  s.email = ""
+  s.homepage = "https://github.com/TheNotary/gas_ssh"
   s.summary = "SSHpower your gas"
   s.description = "Adds SSH support to gas."
 
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.extra_rdoc_files = %w[README.textile LICENSE]
 
-  s.add_dependency 'gas' # Must be more than 0.2.0
+  s.add_dependency 'gas', '~> 1.0.0'
   s.add_dependency 'sshkey', '~> 1.2.2'
   s.add_dependency 'highline'
   s.add_dependency 'json'
